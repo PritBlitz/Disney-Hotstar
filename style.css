@@ -421,3 +421,94 @@ body {
 .nxt-btn:hover img {
   opacity: 1;
 }
+
+footer {
+  background-color: #0c111b;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-section,
+.quick-links,
+.disney {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.contact-info,
+.quick-links-content,
+.disney-content {
+  text-align: left;
+}
+
+.contact-info h4,
+.quick-links-content h4,
+.disney-content h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contact-info p,
+.quick-links-content p,
+.disney p {
+  margin: 5px 0;
+  color: #aaa;
+}
+
+.gmail-link {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gmail-link:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.quick-links-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links-content ul li {
+  margin-bottom: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quick-links-content ul li a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.quick-links-content ul li a:hover {
+  color: #45a049;
+}
+
+.quick-links-content ul li:hover {
+  transform: translateX(5px);
+}
